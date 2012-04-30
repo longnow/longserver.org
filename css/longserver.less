@@ -1,0 +1,136 @@
+/* LESSCSS Styling for longserver.org by Ben Keating, ben@longnow.org. */
+
+body {
+    background-color:#eee6dd;
+    background-image:url(../img/bg.png);
+    background-position: top left;
+    background-repeat:repeat-x;
+}
+
+.garamond {
+    font-family: 'EB Garamond', serif;
+}
+
+.wrapper {
+    min-height: 560px;
+    background-image:url(../img/horizon.png);
+    background-position: center 290px;
+    background-repeat:repeat-x;
+}
+.container {
+    position:relative;
+    background-image:url(../img/glow.png);
+    background-position:center top;
+    // background-repeat:no-repeat;
+    z-index:9999;
+}
+
+header {
+    position:relative;
+    font-size: 3em;
+    
+    background-image:url();
+    
+    img.logo {
+        position:absolute;
+        top: 113px;
+    }
+    
+    div.quote {
+        position:absolute;
+        top: 10px;
+        right: 20px;
+    }
+    
+    div.header {
+        position:absolute;
+        top: 188px;
+        left: 258px;
+        height:75px;
+        width:567px;
+        background:url(../img/sprite.png) -0px -3px no-repeat;
+    }
+    
+    div.quote{ 
+        position:absolute;
+        top: 90px;
+        width:667px;
+        text-align:right;
+        p {
+            font-size: 0.75em;
+            text-shadow: 0 1px 0 #fff4e7;
+            .garamond();
+            .byline {
+                position:relative;
+                top: 15px;
+                right: 68px;
+                display:block;
+            }
+        }
+    }
+}
+
+div#main-content {
+    width: 667px;
+    position: absolute;
+    top: 315px;
+    right: 11px;
+    color: #505050;
+    p {
+        line-height: 1.45em;
+        font-size: 1.3em;
+    }
+}
+
+footer {
+    position:absolute;
+    left: 260px;
+    width: 670px;
+    height: 28px;
+    top: 460px;
+    color: #7d7975;
+    text-shadow: 0 1px 0 white;
+    border-top: 1px solid #e3dcd3;
+    padding-top:20px;
+    
+    div.cc {
+        display:inline-block;
+        position:relative;
+        vertical-align:top;
+        top: -4px;
+        height:25px;
+        width:25px;
+        margin-right: 8px;
+        background:url(../img/sprite.png) -4px -86px no-repeat;
+    }
+    
+    div.facebook, div.twitter, div.email {
+        display:inline-block;
+        position:absolute;
+        top: 23px;
+        height:25px;
+        width:25px;
+        background-image:url(../img/sprite.png);
+        background-repeat:no-repeat;
+    }
+    
+    div.twitter {
+        right: 60px;
+        background-position:-61px -87px;
+    }
+    div.facebook {
+        right: 30px;
+        background-position:-32px -87px;
+    }
+    div.email {
+        right: 0;
+        background-position:-90px -87px;
+    }
+}
+
+.btn-follow {
+
+    position:absolute;
+    top: 380px;
+    left: 8px;
+}
