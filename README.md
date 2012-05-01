@@ -10,4 +10,4 @@ jQuery and LESSCSS are also included.
 
 # Authors
 
-Code & Design by [Ben Keating](https://github.com/bkeating/) of [The Long Now Foundation](http://longnow.org/).
+Code & Design by [Ben Keating](https://github.com/bkeating/).
